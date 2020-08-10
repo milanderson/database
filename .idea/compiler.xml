@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bigdata-war-html" />
+        <module name="bigdata-cache" />
+        <module name="bigdata-client" />
+        <module name="bigdata-blueprints" />
+        <module name="bigdata-core" />
+        <module name="bigdata-sails-test" />
+        <module name="blazegraph-colt" />
+        <module name="lgpl-utils" />
+        <module name="junit-ext" />
+        <module name="bigdata-statics" />
+        <module name="sparql-grammar" />
+        <module name="system-utils" />
+        <module name="bigdata-util" />
+        <module name="rdf-properties" />
+        <module name="vocabularies" />
+        <module name="bigdata-runtime" />
+        <module name="ctc-striterators" />
+        <module name="bigdata-gas" />
+        <module name="bigdata-core-test" />
+        <module name="bigdata-ganglia" />
+        <module name="bigdata-rdf-test" />
+        <module name="bigdata-common-util" />
+        <module name="dsi-utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bigdata-blueprints" target="1.7" />
+      <module name="bigdata-cache" target="1.7" />
+      <module name="bigdata-client" target="1.7" />
+      <module name="bigdata-common-util" target="1.7" />
+      <module name="bigdata-core" target="1.7" />
+      <module name="bigdata-core-test" target="1.7" />
+      <module name="bigdata-ganglia" target="1.7" />
+      <module name="bigdata-gas" target="1.7" />
+      <module name="bigdata-rdf-test" target="1.7" />
+      <module name="bigdata-runtime" target="1.7" />
+      <module name="bigdata-sails-test" target="1.7" />
+      <module name="bigdata-statics" target="1.7" />
+      <module name="bigdata-util" target="1.7" />
+      <module name="bigdata-war-html" target="1.7" />
+      <module name="blazegraph-colt" target="1.7" />
+      <module name="blazegraph-parent" target="1.7" />
+      <module name="ctc-striterators" target="1.7" />
+      <module name="dsi-utils" target="1.7" />
+      <module name="junit-ext" target="1.7" />
+      <module name="lgpl-utils" target="1.7" />
+      <module name="rdf-properties" target="1.7" />
+      <module name="sparql-grammar" target="1.7" />
+      <module name="system-utils" target="1.7" />
+      <module name="vocabularies" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

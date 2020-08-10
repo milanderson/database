@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bigdata-blueprints/bigdata-blueprints.iml" filepath="$PROJECT_DIR$/bigdata-blueprints/bigdata-blueprints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-cache/bigdata-cache.iml" filepath="$PROJECT_DIR$/bigdata-cache/bigdata-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-client/bigdata-client.iml" filepath="$PROJECT_DIR$/bigdata-client/bigdata-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-common-util/bigdata-common-util.iml" filepath="$PROJECT_DIR$/bigdata-common-util/bigdata-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-core/bigdata-core.iml" filepath="$PROJECT_DIR$/bigdata-core/bigdata-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-core-test/bigdata-core-test.iml" filepath="$PROJECT_DIR$/bigdata-core-test/bigdata-core-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-ganglia/bigdata-ganglia.iml" filepath="$PROJECT_DIR$/bigdata-ganglia/bigdata-ganglia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-gas/bigdata-gas.iml" filepath="$PROJECT_DIR$/bigdata-gas/bigdata-gas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-rdf-test/bigdata-rdf-test.iml" filepath="$PROJECT_DIR$/bigdata-rdf-test/bigdata-rdf-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-runtime/bigdata-runtime.iml" filepath="$PROJECT_DIR$/bigdata-runtime/bigdata-runtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-sails-test/bigdata-sails-test.iml" filepath="$PROJECT_DIR$/bigdata-sails-test/bigdata-sails-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-statics/bigdata-statics.iml" filepath="$PROJECT_DIR$/bigdata-statics/bigdata-statics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-util/bigdata-util.iml" filepath="$PROJECT_DIR$/bigdata-util/bigdata-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-war-html/bigdata-war-html.iml" filepath="$PROJECT_DIR$/bigdata-war-html/bigdata-war-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blazegraph-colt/blazegraph-colt.iml" filepath="$PROJECT_DIR$/blazegraph-colt/blazegraph-colt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blazegraph-parent.iml" filepath="$PROJECT_DIR$/blazegraph-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctc-striterators/ctc-striterators.iml" filepath="$PROJECT_DIR$/ctc-striterators/ctc-striterators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsi-utils/dsi-utils.iml" filepath="$PROJECT_DIR$/dsi-utils/dsi-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/junit-ext/junit-ext.iml" filepath="$PROJECT_DIR$/junit-ext/junit-ext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lgpl-utils/lgpl-utils.iml" filepath="$PROJECT_DIR$/lgpl-utils/lgpl-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rdf-properties/rdf-properties.iml" filepath="$PROJECT_DIR$/rdf-properties/rdf-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparql-grammar/sparql-grammar.iml" filepath="$PROJECT_DIR$/sparql-grammar/sparql-grammar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-utils/system-utils.iml" filepath="$PROJECT_DIR$/system-utils/system-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vocabularies/vocabularies.iml" filepath="$PROJECT_DIR$/vocabularies/vocabularies.iml" />
+    </modules>
+  </component>
+</project>

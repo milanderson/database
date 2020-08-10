@@ -79,6 +79,7 @@ public class SKOSVocabularyDecl implements VocabularyDecl {
     public static final URI relatedMatch = new URIImpl(NAMESPACE+"relatedMatch");
     public static final URI scopeNote = new URIImpl(NAMESPACE+"scopeNote");
     public static final URI semanticRelation= new URIImpl(NAMESPACE+"semanticRelation");
+    public static final URI synonym = new URIImpl(NAMESPACE+"synonym");
     public static final URI topConceptOf = new URIImpl(NAMESPACE+"topConceptOf");
     
     static private final URI[] uris = new URI[] {
@@ -89,7 +90,7 @@ public class SKOSVocabularyDecl implements VocabularyDecl {
         hiddenLabel, historyNote, inScheme, mappingRelation, member,
         memberList, narrowMatch, narrow, narrowTransitive, notation, note,
         prefLabel, related, relatedMatch, scopeNote, semanticRelation,
-        topConceptOf//
+        synonym, topConceptOf//
     };
 
     public SKOSVocabularyDecl() {
