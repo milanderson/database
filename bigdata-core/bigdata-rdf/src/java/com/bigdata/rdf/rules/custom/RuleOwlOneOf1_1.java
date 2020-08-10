@@ -19,7 +19,7 @@ public class RuleOwlOneOf1_1 extends Rule {
                 new SPOPredicate(relationName, var("m"), vocab.getConstant(OWL.ONEOF), var("n")), //
                 new SPOPredicate[]{ //
                         new SPOPredicate(relationName, var("c"), vocab.getConstant(OWL.ONEOF), var("m")),
-                        new SPOPredicate(relationName, var("m"), vocab.getConstant(RDF.REST), var("c")),
+                        new SPOPredicate(relationName, var("m"), vocab.getConstant(RDF.REST), var("n")),
                 },//
                 new IConstraint[] {
                         Constraint.wrap(new NEConstant(var("n"), vocab.getConstant(RDF.NIL)))
