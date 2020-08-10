@@ -24,8 +24,25 @@ public class OpenPolicyClosure extends BaseClosure {
         program.addStep(new RuleRdfs12(db, vocab));
         program.addStep(new RuleRdfs13(db, vocab));
 
+        /*START Limited OWL functionality - Not specified by Open Policy*/
+        program.addStep(new RuleOwlTransitiveProperty1(db, vocab));
+        program.addStep(new RuleOwlTransitiveProperty2(db, vocab));
+        program.addStep(new RuleOwlSymmetricProperty(db, vocab));
+        program.addStep(new RuleOwlSameAs1(db, vocab));
+        program.addStep(new RuleOwlSameAs1b(db, vocab));
+        program.addStep(new RuleOwlSameAs2(db, vocab));
+        program.addStep(new RuleOwlSameAs3(db, vocab));
+        program.addStep(new RuleOwlInverseOf1(db, vocab));
+        program.addStep(new RuleOwlHasValue(db, vocab));
+        program.addStep(new RuleOwlEquivalentClass(db, vocab));
+        program.addStep(new RuleOwlEquivalentProperty(db, vocab));
+        /*END*/
+
         program.addStep(new RuleProtonTransOver(db, vocab));
         program.addStep(new RuleProtonTransProp(db, vocab));
+        program.addStep(new RuleProtonTransPropInduct(db, vocab));
+        program.addStep(new RuleProtonRoleHolder(db, vocab));
+
         program.addStep(new RuleProtonTransPropInduct(db, vocab));
         program.addStep(new RuleProtonRoleHolder(db, vocab));
 
@@ -46,7 +63,6 @@ public class OpenPolicyClosure extends BaseClosure {
         program.addStep((new RuleOwlSubClassByIntersection2(db, vocab)));
         program.addStep((new RuleOwlTypeByIntersection1(db, vocab)));
         program.addStep((new RuleOwlTypeByIntersection2(db, vocab)));
-
 
         program.addStep(new RuleOwlFunctionalPropertybyInverse(db, vocab));
         program.addStep(new RuleOwlInverseFunctionalPropertybyFunctional(db, vocab));
@@ -78,7 +94,6 @@ public class OpenPolicyClosure extends BaseClosure {
 
         program.addStep(new RuleOpenPolicyDocumentGroupContainsDocuments(db, vocab));
         program.addStep(new RuleOpenPolicyParagraphRelatedToSynonyms(db, vocab));
-
 
         return program;
     }

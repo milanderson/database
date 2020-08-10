@@ -17,7 +17,7 @@ public class RuleProtonRoleHolder extends Rule {
                 new SPOPredicate[]{ //
                         new SPOPredicate(relationName, var("x"), vocab.getConstant(ProtonT.ROLEHOLDER), var("y")),
                         new SPOPredicate(relationName, var("x"), vocab.getConstant(ProtonT.ROLEIN), var("z")),
-                        new SPOPredicate(relationName, var("y"), vocab.getConstant(RDF.TYPE), vocab.getConstant(ProtonT.AGENT)),
+                        new SPOPredicate(relationName, var("y"), vocab.getConstant(RDF.TYPE), vocab.getConstant(ProtonT.AGENT))
                 },//
                 null// constraints
         );

@@ -15,7 +15,7 @@ public class RuleProtonTransProp extends Rule {
         super("proton_TransProp",//
                 new SPOPredicate(relationName, var("p"), vocab.getConstant(ProtonS.TRANSITIVEOVER), var("p")), //
                 new SPOPredicate[]{ //
-                        new SPOPredicate(relationName, var("p"), vocab.getConstant(RDF.TYPE), vocab.getConstant(ProtonS.TRANSITIVEOVER)),
+                        new SPOPredicate(relationName, var("p"), vocab.getConstant(RDF.TYPE), vocab.getConstant(ProtonS.TRANSITIVEOVER))
                 },//
                 null// constraints
         );
